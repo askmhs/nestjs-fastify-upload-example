@@ -1,11 +1,4 @@
-import {
-  Controller,
-  Post,
-  Req,
-  Res,
-  UploadedFile,
-  UseInterceptors,
-} from '@nestjs/common';
+import { Controller, Post, Req, Res } from '@nestjs/common';
 import { FastifyReply, FastifyRequest } from 'fastify';
 import { UploadService } from './upload.service';
 
